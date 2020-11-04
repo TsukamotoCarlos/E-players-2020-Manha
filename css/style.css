@@ -218,7 +218,7 @@ img{
     background-color: var(--black1);
 }
 .noticias{
-    width: 73%;
+    width: 70%;
     height: 90%;
     /* background-color: darkgray; */
 }
@@ -229,7 +229,7 @@ img{
     text-transform: uppercase;
 }
 .proximos-jogos{
-    width: 25%;
+    width: 23%;
     height:auto;
 }
 .newscard{
@@ -253,12 +253,15 @@ img{
     flex-wrap: wrap;
 }
 .proximas-partidas{
+    width: 100%;
     background: var(--gradient);
     height: 750px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 0px 0px 15px rgb(59, 59, 59);
+
 
 
 }
@@ -289,6 +292,68 @@ img{
 .times img{
     width: 2.5em;
 }
+.rodape{
+    padding: 1em 0;
+    color:#fff;
+}
+.logo-rodape{
+    max-width: 18.75em;
+}
+.links-footer{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+.links h2{
+    font-size: 1.5em;
+    color: #fff;
+
+}
+.links ul{
+    color:#fff;
+    margin-top: 0.5em;
+}
+.links li{
+    margin-left: 2em;
+}
+.links a{
+    text-decoration: none;
+    color:#fff;
+}
+.sociais{
+    width: 33%;
+
+}
+.newslatter h2{
+    font-size: 0.875em;
+    margin-bottom: 0.5em;
+}
+.newslatter form{
+    display: flex;
+}
+.newslatter input[type="email"]{
+    width: 12.5em;
+    height: 2.5em;
+    font-size: 1.1em;
+    padding-left: 1em;
+}
+.newslatter input[type="email"]::placeholder{
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+}
+.newslatter input[type="submit"]{
+    width: 9.75em;
+    height: 2.5em;
+    font-size: 1.1em;
+    background-color: #8326EF;
+    color: #fff;
+    text-transform: uppercase;
+}
+.siga-nos{
+    margin-top: 1em;
+}
+/* página cadastro */
+
 
 @media screen and (max-width: 74.93em){
 
